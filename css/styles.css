@@ -160,3 +160,10 @@ body{
     border: solid var(--wachusettGreen) 5px;
     padding: 10px;
 }
+
+.home-top-jumbotron{
+    border-color: var(--wachusettGreen);
+    border: solid 1px;
+    background-color: var(--wachusettGreen);
+    color: white;
+}
