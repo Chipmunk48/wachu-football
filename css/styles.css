@@ -170,3 +170,11 @@ body {
     background-color: var(--wachusettGreen);
     color: white;
 }
+
+.navtoggle{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: auto
+}
