@@ -144,10 +144,12 @@ body {
     box-shadow: 7px 7px 1px rgba(10,10,10,0.25);
 }
 
-.playertable{
-    width:100%;
+.playertable {
+    width: 100%;
     margin: 10px;
     padding: 10px;
+    box-shadow: 7px 7px 1px rgba(10,10,10,0.25);
+    background-color: white;
 }
 
 .playertable-head {
