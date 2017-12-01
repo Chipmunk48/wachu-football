@@ -209,3 +209,7 @@ body {
         transform: scale(1.2);
         text-shadow: 0px 0px 10px white;
     }
+
+.header{
+    text-align: center;
+}
