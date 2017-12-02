@@ -16,6 +16,14 @@ body {
     margin: 0px 10px 10px 10px;
 }
 
+.wlogo {
+    width: 5rem;
+    vertical-align: text-bottom;
+}
+.title {
+    font-size: 4rem
+}
+
 .navbar {
     position: fixed;
     right: 0;
