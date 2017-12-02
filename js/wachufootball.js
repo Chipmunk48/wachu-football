@@ -8,3 +8,4 @@ $(document).on('scroll', function (e) {
         $('.navbar').removeClass("scrolled");
     }
 });
+
