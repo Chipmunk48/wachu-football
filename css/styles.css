@@ -4,6 +4,10 @@
     --wachusettGreen: #1B5E20;
 }
 
+*{
+    transition: all .5s;
+}
+
 
 body {
     background-image: url("../assets/background.jpg");
@@ -211,6 +215,7 @@ body {
     text-shadow: 0px 0px 5px rgba(10,10,10,0.5);
     -webkit-text-stroke: 0px dodgerblue;
     transition: all .55s cubic-bezier(0.46, 1.8, 0.51, 1);
+    width: 100%;
 }
 
     .social-twitter:hover {
@@ -219,6 +224,27 @@ body {
         -webkit-text-stroke: 1px white;
         text-shadow: 0px 0px 10px white;
     }
+
+.social-phone {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(10,10,10,0.5);
+    -webkit-text-stroke: 0px #1B5E20;
+    transition: all .55s cubic-bezier(0.46, 1.8, 0.51, 1);
+}
+
+.social-phone:hover {
+    color: #1B5E20;
+    transform: scale(1.2);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.social-label {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle
+}
 
 .header{
     text-align: center;
@@ -246,6 +272,12 @@ body {
 .schedule-result {
     border: solid var(--wachusettGreen) 5px;
     padding: 10px;
+}
+@media (max-width: 700px) {
+    .scheduletable {
+        font-size: 10px;
+        padding: 0px
+    }
 }
 
 .iframe-container {
