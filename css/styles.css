@@ -18,7 +18,6 @@ body {
 .pgcontent{
     padding-top: 80px;
     margin: 0px 10px 10px 10px;
-    animation: ease-out 1s fadeIn;
 }
 
 .wlogo {
@@ -299,6 +298,53 @@ body {
 }
 @keyframes fadeIn{
     from{
+        opacity: 0;
+    }
+}
+
+/*Loading thing*/
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    animation: none !important;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    transform: scale(2);
+}
+
+.load1 {
+    /*Loading Circle Green Part*/
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.load2 {
+    /*Loading Circle White Part*/
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -.5s;
+}
+
+/*The animation for it*/
+@keyframes sk-stretchdelay {
+
+    0% {
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+        opacity: 0;
+    }
+
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
         opacity: 0;
     }
 }
