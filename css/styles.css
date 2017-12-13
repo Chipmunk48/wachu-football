@@ -211,7 +211,7 @@ body {
 .social-twitter {
     color: white;
     text-align: center;
-    text-shadow: 0px 0px 5px rgba(10,10,10,0.5);
+    text-shadow: 0px 0px 5px rgba(10,10,10,1);
     -webkit-text-stroke: 0px dodgerblue;
     transition: all .55s cubic-bezier(0.46, 1.8, 0.51, 1);
     width: 100%;
